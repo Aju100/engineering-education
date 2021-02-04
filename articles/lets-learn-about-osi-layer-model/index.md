@@ -15,22 +15,25 @@ images:
     alt: OSI Networking
 ---
 
-OSI is a reference model that describes how information from a software app in one computer moves through a physical medium to the software application in another computer. It has served as the most basic element of computer networking since its inception in 1984. The OSI Reference Model is based on a proposal developed by the International Standards Organization (ISO). The OSI reference model's purpose is to guide vendors and developers so the digital communication products and software programs they create will interoperate and facilitate clear comparisons among communications tools.
+OSI is a reference model that describes how information from a software application on one computer goes from physical activity to software on another computer. It has served as the most basic element of computer networking since its inception in 1984. The OSI Reference Model is based on a proposal developed by the International Standards Organization (ISO). The OSI reference model's purpose is to guide vendors and developers so the digital communication products and software programs they create will interoperate and facilitate clear comparisons among communications tools.
 
 ### Advantages of the OSI Model
 The OSI model helps users and operators of computer networks:
-- Determine the required hardware and software to build their network.
+- Find the hardware and software needed to build their network.
 - Understand and communicate the process followed by components communicating across a network. 
 - Perform troubleshooting by identifying which network layer is causing an issue and focusing efforts on that layer.
 
-The OSI model helps network device manufacturers and networking software vendors:
+The OSI model assists network device manufacturers and networking software vendors:
+
 - Create devices and software that can communicate with products from any other vendor, allowing open interoperability.
 - Define which parts of the network their products should work with.
 - Communicate to users at which network layers their product operates 
 
 ### Characteristics of OSI Model:
 
-OSI consists of several layers, and each layer performs a particular network function. It's divided into two layers: upper layers and lower layers.
+OSI contains of seven layers, and each layer performs a specific network function. It's divided into two layers: 
+- Upper layers 
+- Lower layers
 
 The OSI model's upper layer mainly deals with application-related issues, and they are implemented only in the software. The application layer is closest to the end-user. Both the end-user and the application layer interact with the software applications. An upper layer refers to the layer just above another layer.
 
@@ -47,7 +50,7 @@ OSI follows a vertical approach. ”If you can understand the OSI model and its 
 The model uses layers to help give a visual description of what is going on with a particular networking system. This can help network managers narrow. 
 
 ### Functions of the OSI Layers
-There are seven OSI layers. Each layer has different functions. Each layer is assigned a particular task. OSI model divides the whole task into seven smaller and manageable tasks.  Each layer is self-contained so that tasks assigned to each layer can be performed independently. A list of seven layers are given below:
+There are total seven OSI layers. Each layer has unique functions and is assigned a particular task. OSI model divides the whole task into seven smaller and manageable tasks.  Each layer is self-contained so that tasks assigned to each layer can be performed independently. A comprehensive list of those layers are given below:
 
 <img src="./osi.png">
 
